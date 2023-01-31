@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a63473a-6450-4abf-86af-851300188e9d" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dynamic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/MarkdownSourceSet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPluginExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/1.19.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/groovy/groovy/org/quiltmc/wiki/TutorialMod.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/groovy/resources/quilt.mod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/java/java/org/quiltmc/wiki/TutorialMod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/java/resources/quilt.mod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/kotlin/kotlin/org/quiltmc/wiki/TutorialMod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/kotlin/resources/quilt.mod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/simple_item.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/resources/assets/tutorial/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/resources/assets/tutorial/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/resources/assets/tutorial/models/item/example_item.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/resources/assets/tutorial/textures/item/example_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/scala/resources/quilt.mod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/scala/scala/org/quiltmc/wiki/TutorialMod.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,6 +270,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675084569037</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1675164561475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675164561475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
