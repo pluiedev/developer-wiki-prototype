@@ -15,6 +15,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation(libs.flexmark.all)
+}
+
 val javaVersion = 17
 
 tasks {

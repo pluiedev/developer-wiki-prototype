@@ -1,6 +1,6 @@
 [versions]
 kotlin = "1.8.0"
-groovyduvet = "2.0.2"
+groovyduvet = "2.0.3"
 scala = "3.2.0"
 
 minecraft = "1.19.3"

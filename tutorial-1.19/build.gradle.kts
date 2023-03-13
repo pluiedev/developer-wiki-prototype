@@ -23,10 +23,6 @@ repositories {
 
     // Adding GroovyDuvet for groovy language adapter
     maven("https://maven.moddinginquisition.org/releases")
-
-    maven("https://maven.quiltmc.org/repository/release") {
-        name = "Quilt"
-    }
 }
 
 dependencies {
@@ -122,11 +118,11 @@ loom.runs {
     wiki.languages.get().forEach {
         create("${it}Client") {
             client()
-            setSource(sourceSets.getByName(it))
+            setSource(sourceSets.getByName(it.id))
         }
         create("${it}Server") {
             server()
-            setSource(sourceSets.getByName(it))
+            setSource(sourceSets.getByName(it.id))
         }
     }
 }

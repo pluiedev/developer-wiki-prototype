@@ -4,8 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a63473a-6450-4abf-86af-851300188e9d" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8a63473a-6450-4abf-86af-851300188e9d" name="Changes" comment="ignore rundirs">
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/Language.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/Markdown.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext/CodeContainerBlock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext/CodeContainerBlockRenderer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext/CodeContainerExtension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext/LanguageSpecificContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/en/item/simple_item.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/MarkdownSourceSet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPluginExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/WikiPluginExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/1.19.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/1.19.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-1.19/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/groovy/groovy/org/quiltmc/wiki/TutorialMod.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/groovy/resources/quilt.mod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/java/java/org/quiltmc/wiki/TutorialMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-1.19/src/java/java/org/quiltmc/wiki/TutorialMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/kotlin/kotlin/org/quiltmc/wiki/TutorialMod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-1.19/src/kotlin/kotlin/org/quiltmc/wiki/TutorialMod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/simple_item.md" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-1.19/src/kotlin/resources/simple_item.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-1.19/src/scala/scala/org/quiltmc/wiki/TutorialMod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-1.19/src/scala/scala/org/quiltmc/wiki/TutorialMod.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +81,13 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="developer-wiki" type="f1a62948:ProjectNode" />
+                <item name="tutorial-1.19" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="wiki" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -70,6 +100,7 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -98,39 +129,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/leah/coding/developer-wiki-new/tutorial-1.19/src/java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "scala_project_settings_configurable.last_selected_tab_index": "6",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/leah/coding/developer-wiki-new/tutorial-1.19/src/main/markdown/en/item&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/java" />
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/scala/resources" />
-      <recent name="$PROJECT_DIR$/buildSrc" />
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/groovy/resources" />
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/groovy" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/en/item" />
+      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/out/markdown/en/item" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/en" />
+      <recent name="$PROJECT_DIR$/gradle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tutorial-1.19/gradle" />
       <recent name="$PROJECT_DIR$/tutorial-1.19/src/kotlin/resources" />
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/resources/assets" />
-      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/scala/org/quiltmc/wiki/tut_1_19/scala" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/en/item" />
+      <recent name="$PROJECT_DIR$/buildSrc/src/main/kotlin/org/quiltmc/wiki/plugin/mdext" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/src/main/markdown/en" />
+      <recent name="$PROJECT_DIR$/tutorial-1.19/gradle" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.developer-wiki-new:tutorial-1.19 [runKotlinClient]">
-    <configuration name="developer-wiki-new:tutorial-1.19 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.developer-wiki-new:tutorial-1.19 [generateMarkdown]">
+    <configuration name="developer-wiki-new:tutorial-1.19 [generateMarkdown]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/tutorial-1.19" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateMarkdown" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="developer-wiki-new:tutorial-1.19 [runGroovyServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/tutorial-1.19" />
@@ -141,7 +194,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="runClient" />
+            <option value="runGroovyServer" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,27 +267,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="developer-wiki-new:tutorial-1.19 [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/tutorial-1.19" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runServer" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="developer-wiki-new" />
       <method v="2">
@@ -250,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [generateMarkdown]" />
+        <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runGroovyServer]" />
         <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runKotlinClient]" />
         <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runKotlinServer]" />
         <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runScalaClient]" />
-        <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runServer]" />
-        <item itemvalue="Gradle.developer-wiki-new:tutorial-1.19 [runClient]" />
       </list>
     </recent_temporary>
   </component>
@@ -277,12 +309,30 @@
       <option name="project" value="LOCAL" />
       <updated>1675164561475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore rundirs">
+      <created>1675164627440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675164627440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="ignore rundirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore rundirs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/.gradle/caches/transforms-3/b857c89a93e3ad26d7a3a2df48b5cb23/transformed/unzipped-distribution/gradle-7.5.1/subprojects/core-api/src/main/java/org/gradle/api/file/RegularFileProperty.java</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

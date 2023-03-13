@@ -8,15 +8,15 @@ import org.quiltmc.qkl.library.items.itemSettingsOf
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer
 
 object TutorialMod: ModInitializer {
-    // @start Declaration
+    //@start declare_item
 //    val EXAMPLE_ITEM: Item = Item(itemSettingsOf())
-    // @end Declaration
+    //@end declare_item
 
     override fun onInitialize(mod: ModContainer) {
-        // @start Registration
+        //@start register_item
 //        registryScope(mod.metadata().id()) {
 //            EXAMPLE_ITEM withPath "example_item" toRegistry Registry.ITEM
 //        }
-        // @end Registration
+        //@end register_item
     }
 }
